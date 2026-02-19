@@ -265,3 +265,5 @@ MIT License — see [LICENSE](LICENSE) for details.
 ## 🏷️ Hackathon Tags
 
 `#RIFT2026` `#PharmaGuard` `#Pharmacogenomics` `#AIinHealthcare` `#PrecisionMedicine`
+
+# PharmaGuard
