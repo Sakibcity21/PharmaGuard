@@ -1,0 +1,34 @@
+##fileformat=VCFv4.2
+##INFO=<ID=GENE,Number=1,Type=String,Description="Gene symbol">
+##INFO=<ID=STAR,Number=1,Type=String,Description="Star allele designation">
+##INFO=<ID=RS,Number=1,Type=String,Description="dbSNP rsID">
+##INFO=<ID=EFFECT,Number=1,Type=String,Description="Functional effect">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Total read depth">
+##INFO=<ID=AF,Number=A,Type=Float,Description="Allele frequency">
+##FILTER=<ID=PASS,Description="All filters passed">
+##FILTER=<ID=LowQual,Description="Low quality variant">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype Quality">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read Depth">
+##contig=<ID=1,length=249250621>
+##contig=<ID=6,length=171115067>
+##contig=<ID=10,length=135534747>
+##contig=<ID=12,length=133851895>
+##contig=<ID=22,length=51304566>
+##reference=GRCh38
+##source=PharmaGuard_SampleGenerator_v2.0
+##phasing=partial
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	PATIENT_003
+22	42130692	rs3892097	G	A	98.3	PASS	DP=43;AF=0.00;GENE=CYP2D6;STAR=*4;RS=rs3892097;EFFECT=no_function	GT:GQ:DP	0/0:98:43
+22	42126611	rs16947	G	A	97.1	PASS	DP=46;AF=1.00;GENE=CYP2D6;STAR=*2;RS=rs16947;EFFECT=normal_function	GT:GQ:DP	1/1:97:46
+22	42127941	rs35742686	G	A	90.5	PASS	DP=39;AF=0.00;GENE=CYP2D6;STAR=*3;RS=rs35742686;EFFECT=no_function	GT:GQ:DP	0/0:90:39
+10	96541616	rs4244285	G	A	96.0	PASS	DP=50;AF=0.00;GENE=CYP2C19;STAR=*2;RS=rs4244285;EFFECT=no_function	GT:GQ:DP	0/0:96:50
+10	96521657	rs12248560	C	T	99.2	PASS	DP=54;AF=1.00;GENE=CYP2C19;STAR=*17;RS=rs12248560;EFFECT=increased_function	GT:GQ:DP	1/1:99:54
+10	96702047	rs1799853	C	T	95.8	PASS	DP=47;AF=0.00;GENE=CYP2C9;STAR=*2;RS=rs1799853;EFFECT=decreased_function	GT:GQ:DP	0/0:95:47
+10	96741053	rs1057910	A	C	94.5	PASS	DP=43;AF=0.00;GENE=CYP2C9;STAR=*3;RS=rs1057910;EFFECT=no_function	GT:GQ:DP	0/0:94:43
+12	21331549	rs4149056	T	C	93.2	PASS	DP=38;AF=0.00;GENE=SLCO1B1;STAR=*5;RS=rs4149056;EFFECT=decreased_function	GT:GQ:DP	0/0:93:38
+12	21329738	rs2306283	A	G	91.7	PASS	DP=41;AF=0.00;GENE=SLCO1B1;STAR=*1b;RS=rs2306283;EFFECT=normal_function	GT:GQ:DP	0/0:91:41
+6	18130918	rs1800460	C	T	92.4	PASS	DP=40;AF=0.00;GENE=TPMT;STAR=*3B;RS=rs1800460;EFFECT=no_function	GT:GQ:DP	0/0:92:40
+6	18130348	rs1142345	A	G	89.9	PASS	DP=36;AF=0.00;GENE=TPMT;STAR=*3C;RS=rs1142345;EFFECT=no_function	GT:GQ:DP	0/0:89:36
+1	97915614	rs3918290	C	T	87.6	PASS	DP=34;AF=0.00;GENE=DPYD;STAR=*2A;RS=rs3918290;EFFECT=no_function	GT:GQ:DP	0/0:87:34
+1	97981395	rs67376798	T	A	86.2	PASS	DP=32;AF=0.00;GENE=DPYD;STAR=c.2846A>T;RS=rs67376798;EFFECT=decreased_function	GT:GQ:DP	0/0:86:32
