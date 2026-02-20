@@ -4,6 +4,8 @@
 
 Built for **RIFT 2026 Hackathon** — HealthTech / Pharmacogenomics Track
 
+![Hero Section](/hero%20section.png)
+
 ---
 
 ## 🌐 Live Demo
@@ -16,9 +18,11 @@ Built for **RIFT 2026 Hackathon** — HealthTech / Pharmacogenomics Track
 
 ## 📸 Screenshots
 
-| Dashboard | Analysis Results |
-|-----------|-----------------|
-| Dark theme dashboard with file upload and drug selection | Color-coded risk cards with clinical recommendations |
+### Dashboard
+![Dashboard](/dashboard.png)
+
+### Analysis Results
+![Analysis Results](/web%20application%20out%20put.png)
 
 ---
 
@@ -56,7 +60,7 @@ Built for **RIFT 2026 Hackathon** — HealthTech / Pharmacogenomics Track
 |-------|-----------|
 | **Frontend** | Next.js 14 (App Router), React 18, Vanilla CSS |
 | **Backend** | Next.js API Routes |
-| **AI/LLM** | Google Gemini API (gemini-2.0-flash) |
+| **AI/LLM** | Groq API (Llama 3), Google Gemini API (gemini-2.0-flash) |
 | **Design** | Dark glassmorphism theme, Inter font |
 | **Deployment** | Vercel |
 | **Pharmacogenomics** | CPIC-aligned knowledge base |
