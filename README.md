@@ -4,7 +4,7 @@
 
 Built for **RIFT 2026 Hackathon** — HealthTech / Pharmacogenomics Track
 
-![Hero Section](/hero%20section.png)
+![Hero Section](public/hero%20section.png)
 
 ---
 
@@ -19,10 +19,10 @@ Built for **RIFT 2026 Hackathon** — HealthTech / Pharmacogenomics Track
 ## 📸 Screenshots
 
 ### Dashboard
-![Dashboard](/dashboard.png)
+![Dashboard](public/dashboard.png)
 
 ### Analysis Results
-![Analysis Results](/web%20application%20out%20put.png)
+![Analysis Results](public/web%20application%20out%20put.png)
 
 ---
 
